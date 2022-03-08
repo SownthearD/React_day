@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    font-family: Open Sans;
+}
+.head{
+    background-color: black;
+    color: lightgray;
+    height: 25px;
+}
+.sticky{
+    position: sticky;
+    top: 0;
+    color: white;
+    background-color: rgba(25, 25, 25, 0.95);
+}
+.navi{
+    color: white !important;
+}
+.navi:hover, #navbarScrollingDropdown:hover{
+    color: blue !important;
+    background-color: red;
+}
+#navbarScrollingDropdown{
+    color: white;
+}
+
+/* Home */
+.home{
+    background-image: url(./img/hero-bg.jpg);
+    height: 750px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.tile{
+    margin-top: 250px;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+.cont{
+    color: white;
+    font-size: 25px;
+}
+.but:hover{
+    background-color: red !important;
+    color: white !important;
+}
+
+
+/* About */
+.about{
+    position: relative;
+    top: 100px;
+}
+.title{
+    font-size: 30px;
+    font-weight: bold;
+}
+.abt-cont{
+    font-size: 18px;
+}
+.abt-cont1{
+    font-style: italic;
+    font-size: 18px;
+}
+.abt{
+    position: relative;
+    top: 40px;
+}
+.abt-num{
+    font-size: 30px;
+    font-weight: bold;
+}
+.abt-hd{
+    font-size: 30px;
+}
+.abt-con{
+    color: white;
+}
+.over:hover{
+    box-shadow: 10px 5px 10px 5px grey;
+    background-color: red !important;
+    color: white !important;
+}
+
+.client{
+    margin-top: 20px;
+    position: relative;
+    top: 30px;
+    height: 90px;
+    background-color: lightgray;
+}
+
+
+
+/* Third */
+.space{
+    text-align: center;
+    padding-top: 200px;
+}
+.space1{
+    padding-top: 150px;
+}
+/* .bg span{
+    position: relative;
+    left: 650px;
+    margin-top: 5px;
+    color: #f4f4f4;
+    z-index: 1;
+    font-weight: 700;
+    font-size: 52px;
+    text-transform: uppercase;
+    line-height: 0;
+} */
+.img{
+    margin-top: 50px;
+    background-image: url(./img/cta-bg.jpg);
+    background-attachment: fixed;
+    color: white;
+    font-size: 20px;
+    height: 400px;
+}
+.round-icon{ 
+    background-color: white;
+     /* padding: 1px; */ 
+     color: red; 
+     padding:25px 36px; 
+     border-radius: 100px; 
+     border: none; 
+     width: 172px; 
+     align-items: center; 
+     transition: all .4s ease-out 0s; 
+     position: relative; 
+     box-shadow: 1px 5px 10px 5px lightgray;
+}
+.round-icon::before{ 
+    position: absolute; content: ""; 
+    width: 100%; 
+    height: 0; 
+    background: orangered; 
+    transition: .5s; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    z-index: -1; 
+    border-radius: 100px; 
+}
+.round-icon:hover{ 
+    border:1px solid transparent ; 
+    color: white;
+    z-index: 1; }
+.round-icon:hover::before
+{ 
+    height: 100%; 
+}
+
+
+
+
+
+/* Fourth */
+.bg{
+    margin-top: -65px !important;
+}
+.bg1{
+    background-color: #f9f9f9;
+    color: black;
+}
+.bg2{
+    background-color: red;
+}
+
+
+
+/* Fifth */
+.card{
+    border: 0px !important;
+}
+.card:hover{
+    box-shadow: 1px 5px 10px 5px lightgray;
+}
+.cardtxt{
+    color: black;
+}
+
+/* Footer */
+.box1{
+    padding-top: 30px;
+    box-shadow: 1px 5px 10px 5px lightgray;
+}
+.last{
+    padding-top: 40px;
+    background-color: black;
+    color: white;
+}
+.last1{
+    border-top: 3px solid red;
+    background-color: #212529;
+}
+.last2{
+    text-align: left;
+}
+.bottom{
+    margin-top: 15px;
+    border-top: 3px solid grey;
+    height: 70px;
+    background-color: black;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
